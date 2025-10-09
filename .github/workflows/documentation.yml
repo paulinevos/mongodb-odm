@@ -8,8 +8,6 @@ on:
       - .github/workflows/documentation.yml
       - docs/**
   push:
-    branches:
-      - "*.x"
     paths:
       - .github/workflows/documentation.yml
       - docs/**
