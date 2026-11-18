@@ -6,10 +6,10 @@ namespace Doctrine\ODM\MongoDB\Tests\Aggregation\Stage;
 
 use Doctrine\ODM\MongoDB\Aggregation\Stage\Facet;
 use Doctrine\ODM\MongoDB\Tests\Aggregation\AggregationTestTrait;
-use Doctrine\ODM\MongoDB\Tests\BaseTestCase;
+use Doctrine\ODM\MongoDB\Tests\UnitTestCase;
 use LogicException;
 
-class FacetTest extends BaseTestCase
+class FacetTest extends UnitTestCase
 {
     use AggregationTestTrait;
 

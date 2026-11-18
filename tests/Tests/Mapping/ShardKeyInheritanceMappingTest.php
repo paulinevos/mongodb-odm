@@ -7,9 +7,9 @@ namespace Doctrine\ODM\MongoDB\Tests\Mapping;
 use Doctrine\ODM\MongoDB\Mapping\Attribute as ODM;
 use Doctrine\ODM\MongoDB\Mapping\ClassMetadataFactory;
 use Doctrine\ODM\MongoDB\Mapping\MappingException;
-use Doctrine\ODM\MongoDB\Tests\BaseTestCase;
+use Doctrine\ODM\MongoDB\Tests\UnitTestCase;
 
-class ShardKeyInheritanceMappingTest extends BaseTestCase
+class ShardKeyInheritanceMappingTest extends UnitTestCase
 {
     private ClassMetadataFactory $factory;
 

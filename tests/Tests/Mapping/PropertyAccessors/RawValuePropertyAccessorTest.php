@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace Doctrine\ODM\MongoDB\Tests\Mapping\PropertyAccessors;
 
 use Doctrine\ODM\MongoDB\Mapping\PropertyAccessors\RawValuePropertyAccessor;
-use Doctrine\ODM\MongoDB\Tests\BaseTestCase;
+use Doctrine\ODM\MongoDB\Tests\UnitTestCase;
 use Documents\PropertyHooks\User;
 use ReflectionObject;
 
 use function trim;
 
-class RawValuePropertyAccessorTest extends BaseTestCase
+class RawValuePropertyAccessorTest extends UnitTestCase
 {
     public function testSetGetValue(): void
     {

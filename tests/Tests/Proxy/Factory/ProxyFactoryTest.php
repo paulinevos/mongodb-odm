@@ -9,7 +9,7 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Event\DocumentNotFoundEventArgs;
 use Doctrine\ODM\MongoDB\Events;
 use Doctrine\ODM\MongoDB\LockException;
-use Doctrine\ODM\MongoDB\Tests\BaseTestCase;
+use Doctrine\ODM\MongoDB\Tests\UnitTestCase;
 use Documents\Cart;
 use Documents\DocumentWithStaticProperty;
 use Documents\DocumentWithUnmappedProperties;
@@ -18,7 +18,7 @@ use MongoDB\Collection;
 use MongoDB\Database;
 use PHPUnit\Framework\MockObject\MockObject;
 
-class ProxyFactoryTest extends BaseTestCase
+class ProxyFactoryTest extends UnitTestCase
 {
     private Client&MockObject $client;
 

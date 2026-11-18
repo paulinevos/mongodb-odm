@@ -6,7 +6,7 @@ namespace Doctrine\ODM\MongoDB\Tests\Registry;
 
 use Doctrine\ODM\MongoDB\Registry\DocumentRegistry;
 use Doctrine\ODM\MongoDB\Registry\PersistenceState;
-use Doctrine\ODM\MongoDB\Tests\BaseTestCase;
+use Doctrine\ODM\MongoDB\Tests\UnitTestCase;
 use Documents\Address;
 use Documents\CmsUser;
 use MongoDB\BSON\ObjectId;
@@ -14,7 +14,7 @@ use MongoDB\BSON\ObjectId;
 use function array_map;
 use function spl_object_id;
 
-class DocumentRegistryTest extends BaseTestCase
+class DocumentRegistryTest extends UnitTestCase
 {
     private DocumentRegistry $registry;
 
